@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>مكتب أبو ناصر – جدة</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700;800&display=swap">
+<style>
+:root{--g:#0e6b4a;--b:#0b2a4a;--gold:#f2c14e;--bg:#f4f8f6;--card:#fff;--ink:#12263a;--mut:#5b6b7a;--line:#dbe6e0;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#08161f;--card:#0f2431;--ink:#eaf2f6;--mut:#9db0bd;--line:#1c3646}}
+html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"Tajawal","Segoe UI",Tahoma,sans-serif;line-height:1.8}
+.wrap{max-width:960px;margin:auto;padding:0 18px}
+header.hero{background:linear-gradient(160deg,var(--b),var(--g));color:#fff;padding:48px 0 56px}
+.hero h1{font-size:clamp(30px,7vw,48px);margin:0;font-weight:800}
+.hero p{font-size:18px;margin:8px 0 22px;opacity:.92;max-width:560px}
+.btns{display:flex;gap:10px;flex-wrap:wrap}
+a.btn{display:inline-block;text-decoration:none;font-weight:800;padding:12px 24px;border-radius:999px;font-size:17px}
+.btn.p{background:var(--gold);color:var(--b)}
+.btn.s{border:2px solid #fff;color:#fff}
+a.btn:focus-visible,button:focus-visible,textarea:focus-visible,input:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
+section{padding:40px 0}
+h2{font-size:28px;margin:0 0 6px;color:var(--g)}
+@media (prefers-color-scheme:dark){h2{color:#5fd1a0}}
+.lead{color:var(--mut);margin:0 0 22px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:14px}
+.svc{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px;display:flex;gap:14px;align-items:center}
+.svc .ic{font-size:36px;width:56px;height:56px;border-radius:14px;background:rgba(14,107,74,.12);display:grid;place-items:center;flex:none}
+.svc b{display:block;font-size:18px}
+.svc small{color:var(--mut)}
+.info{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px}
+.box{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px}
+.box h3{margin:0 0 4px;font-size:19px}
+.box a{color:var(--g);font-weight:800}
+@media (prefers-color-scheme:dark){.box a{color:#5fd1a0}}
+.stars{display:flex;flex-direction:row-reverse;justify-content:flex-end;gap:4px;margin:6px 0 12px}
+.stars input{position:absolute;opacity:0}
+.stars label{font-size:38px;cursor:pointer;color:#c4cfd6;line-height:1;transition:color .15s}
+.stars input:checked~label,.stars label:hover,.stars label:hover~label{color:var(--gold)}
+.stars input:focus-visible+label{outline:3px solid var(--g);border-radius:6px}
+input[type=text],textarea{width:100%;font:inherit;padding:12px;border-radius:12px;border:1px solid var(--line);background:var(--bg);color:var(--ink);margin-bottom:10px}
+textarea{min-height:90px;resize:vertical}
+button.send{font:inherit;font-weight:800;font-size:17px;border:0;border-radius:999px;background:var(--g);color:#fff;padding:12px 28px;cursor:pointer}
+#msg{color:var(--mut);font-size:14px;margin-top:8px}
+footer{background:var(--b);color:#cfe0ea;text-align:center;padding:22px 0;font-size:15px}
+.fab{position:fixed;left:16px;bottom:calc(16px + env(safe-area-inset-bottom,0px));background:#25d366;color:#fff;text-decoration:none;font-weight:800;padding:12px 20px;border-radius:999px;box-shadow:0 6px 18px rgba(0,0,0,.3);z-index:9}
+.trust{list-style:none;padding:0;margin:14px 0 4px;max-width:560px}
+.trust li{font-size:17px;padding-right:30px;position:relative;margin:6px 0}
+.trust li::before{content:"✓";position:absolute;right:0;color:var(--gold);font-weight:800}
+.note{background:rgba(242,193,78,.18);border:1px solid var(--gold);border-radius:12px;padding:10px 14px;margin:0 0 16px;font-weight:700}
+.svc{cursor:pointer;transition:transform .15s,border-color .15s}
+a.svc{color:inherit;text-decoration:none}
+.svc:hover{border-color:var(--g);transform:translateY(-2px)}
+.svc:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
+.svc .cta{display:block;color:#14935f;font-weight:700;margin-top:2px}
+.ref{background:linear-gradient(160deg,var(--b),var(--g));color:#fff;border-radius:20px;padding:24px 20px}
+.ref h2{color:var(--gold)}
+.ref p{margin:0 0 14px;font-size:17px}
+.ref input{background:#fff;color:#12263a}
+.ref button{background:var(--gold);color:var(--b)}
+.grid{align-items:start}
+.sv2{flex-wrap:wrap;cursor:default}
+.sv2 .hd{display:flex;gap:14px;align-items:center;flex:1 1 100%;background:none;border:0;font:inherit;color:inherit;text-align:right;padding:0;cursor:pointer}
+.sv2 .dt{flex:1 1 100%;display:none;border-top:1px dashed var(--line);margin-top:12px;padding-top:12px}
+.sv2.open .dt{display:block}
+.sv2 .dt p{margin:0 0 12px;line-height:1.9}
+.sv2 a.wa{display:inline-block;background:#25d366;color:#fff;font-weight:800;text-decoration:none;padding:10px 22px;border-radius:999px}
+.sv2 a.wa:focus-visible,.sv2 .hd:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
+</style>
+</head>
+<body>
+<header class="hero"><div class="wrap">
+  <h1>مكتب أبو ناصر</h1>
+  <p>مكتب الخدمات العامة والإلكترونية في جدة، في خدمتكم على مدار 24 ساعة. نتولى معاملتك وأنت مرتاح.</p>
+  <ul class="trust"><li>شغلنا مضمون ومتقن، وتسلّم معاملتك وأنت مرتاح</li><li>تخلص أمورك بسرعة بدون ما تتعب نفسك</li><li>نخدمك على مدار 24 ساعة</li><li>الأسعار حسب العروض، ونبلغك بالسعر على واتساب قبل ما نبدأ</li></ul>
+  <div class="btns" hidden>
+    
+    
+  </div>
+</div></header>
+
+<main>
+<section id="services"><div class="wrap">
+  <h2>خدماتنا</h2><p class="lead">شغّالين الحين على جميع الخدمات، كل معاملاتك في مكان واحد.</p>
+  <p class="note">اضغط على أي خدمة تشوف شرحها، ومن داخلها تتواصل معنا على واتساب وتعرف السعر حسب العروض الحالية.</p>
+  <div class="grid">
+    <div class="svc"><div class="ic">🧾</div><div><b>إجازة تشيك باركود</b><small>إجازة مع رمز تحقق</small></div></div>
+    <div class="svc"><div class="ic">🤒</div><div><b>سكليف</b><small>إجازة مرضية</small></div></div>
+    <div class="svc"><div class="ic">🎖️</div><div><b>إجازة مرضية عسكرية</b><small>إجازات مرضية</small></div></div>
+    <div class="svc"><div class="ic">🩺</div><div><b>شهادة صحية</b><small>عبر منصة بلدي</small></div></div>
+    <div class="svc"><div class="ic">📝</div><div><b>إزالة ملاحظة حماية الجور</b><small>خدمات البلديات</small></div></div>
+    <div class="svc"><div class="ic">🛵</div><div><b>فحص مناديب هنقرستيشن</b><small>خدمات البلديات</small></div></div>
+    <div class="svc"><div class="ic">🏠</div><div><b>عقد إيجار</b><small>حساب المواطن – منصة إيجار</small></div></div>
+    <div class="svc"><div class="ic">🛡️</div><div><b>شهادة سلامة</b><small>الدفاع المدني</small></div></div>
+    <div class="svc"><div class="ic">👶</div><div><b>تطعيمات الأطفال</b><small>متابعة وتسجيل التطعيمات</small></div></div>
+    <div class="svc"><div class="ic">🛏️</div><div><b>شعار تنويم</b><small>خدمات طبية</small></div></div>
+    <div class="svc"><div class="ic">🤝</div><div><b>شعار مرافق مريض</b><small>خدمات طبية</small></div></div>
+    <div class="svc"><div class="ic">📋</div><div><b>تقرير طبي</b><small>خدمات طبية</small></div></div>
+    <div class="svc"><div class="ic">🔬</div><div><b>كشوف طبية</b><small>جميع الخدمات الطبية</small></div></div>
+    <div class="svc"><div class="ic">📅</div><div><b>مشهد مراجعة</b><small>إثبات موعد المراجعة</small></div></div>
+    <div class="svc"><div class="ic">🚗</div><div><b>فحص دوري</b><small>للمركبات</small></div></div>
+    <div class="svc"><div class="ic">🪪</div><div><b>بطاقة سائق</b><small>إصدار وتجديد</small></div></div>
+    <div class="svc"><div class="ic">📑</div><div><b>كرت تشغيل</b><small>للمركبات</small></div></div>
+    <div class="svc"><div class="ic">🚘</div><div><b>رخصة قيادة</b><small>خدمات الرخص</small></div></div>
+    <div class="svc"><div class="ic">📄</div><div><b>عقد أجير</b><small>توثيق عقود العمل</small></div></div>
+  </div>
+</div></section>
+
+<section id="reviews"><div class="wrap">
+  <h2>قيّم خدمتنا</h2><p class="lead">رأيك يهمنا. اختر عدد النجوم واكتب تعليقك، وراح يوصلنا على الواتساب.</p>
+  <div class="box">
+    <div class="stars" role="radiogroup" aria-label="التقييم">
+      <input type="radio" name="r" id="s5" value="5"><label for="s5" title="5">★</label>
+      <input type="radio" name="r" id="s4" value="4"><label for="s4" title="4">★</label>
+      <input type="radio" name="r" id="s3" value="3"><label for="s3" title="3">★</label>
+      <input type="radio" name="r" id="s2" value="2"><label for="s2" title="2">★</label>
+      <input type="radio" name="r" id="s1" value="1"><label for="s1" title="1">★</label>
+    </div>
+    <input type="text" id="nm" placeholder="اسمك (اختياري)" maxlength="40">
+    <textarea id="tx" placeholder="كيف كانت تجربتك مع المكتب؟" maxlength="400"></textarea>
+    <button class="send" id="sendBtn" type="button">أرسل التقييم</button>
+    <div id="msg" role="status"></div>
+  </div>
+</div></section>
+
+<section id="contact"><div class="wrap">
+  <h2>موقعنا وتواصل معنا</h2>
+  <div class="info">
+    <div class="box"><h3>📍 العنوان</h3>جدة – بجوار مكتب العمل القديم<br>
+      <a href="https://www.google.com/maps/search/?api=1&query=%D9%85%D9%83%D8%AA%D8%A8+%D8%A7%D9%84%D8%B9%D9%85%D9%84+%D8%A7%D9%84%D9%82%D8%AF%D9%8A%D9%85+%D8%AC%D8%AF%D8%A9" target="_blank" rel="noopener">افتح الموقع في الخرائط</a></div>
+    <div class="box"><h3>📞 الجوال</h3><a href="https://wa.me/966531689711" target="_blank" rel="noopener" dir="ltr">0531689711</a></div>
+    <div class="box"><h3>💬 واتساب</h3><a href="https://wa.me/966531689711" target="_blank" rel="noopener">ابدأ المحادثة</a></div>
+  </div>
+</div></section>
+<section id="share"><div class="wrap"><div class="ref">
+  <h2>شارك رقمي واربح 20 ريال</h2>
+  <p>لكل زبون من طرفك تربح 20 ريال. اكتب اسمك، وشارك الرابط مع أصحابك، وراح يوصلنا اسمك مع رسالة الزبون.</p>
+  <input type="text" id="rn" placeholder="اسمك" maxlength="40">
+  <button class="send" id="shareBtn" type="button">شارك الآن</button>
+</div></div></section>
+</main>
+
+<footer><div class="wrap">مكتب أبو ناصر – جدة</div></footer>
+<a class="fab" href="https://wa.me/966531689711" target="_blank" rel="noopener">واتساب</a>
+
+<script>
+document.getElementById("sendBtn").addEventListener("click",function(){
+  var r=document.querySelector('input[name="r"]:checked'),m=document.getElementById("msg");
+  if(!r){m.textContent="اختر عدد النجوم أول.";return}
+  var n=document.getElementById("nm").value.trim(),t=document.getElementById("tx").value.trim();
+  var s="تقييم جديد لمكتب أبو ناصر\nالنجوم: "+r.value+" من 5"+(n?"\nالاسم: "+n:"")+(t?"\nالتعليق: "+t:"");
+  window.open("https://wa.me/966531689711?text="+encodeURIComponent(s),"_blank");
+  m.textContent="شكراً لك! انفتح الواتساب، اضغط إرسال.";
+});
+document.querySelectorAll(".svc").forEach(function(c){
+  var t=c.querySelector("b").textContent;
+  c.setAttribute("role","link");c.tabIndex=0;
+  var h=document.createElement("small");h.className="cta";h.textContent="اضغط واعرف السعر على واتساب";
+  c.lastElementChild.appendChild(h);
+  function go(){window.open("https://wa.me/966531689711?text="+encodeURIComponent("السلام عليكم، أبي خدمة: "+t+"\nكم السعر حسب العروض؟"),"_blank")}
+  var a=document.createElement("a");a.className=c.className;a.href="https://wa.me/966531689711?text="+encodeURIComponent("السلام عليكم، أبي خدمة: "+t+"\nكم السعر حسب العروض؟");a.target="_blank";a.rel="noopener";while(c.firstChild)a.appendChild(c.firstChild);c.replaceWith(a);
+  c.addEventListener("keydown",function(e){if(e.key==="Enter"||e.key===" "){e.preventDefault();go()}});
+});
+document.getElementById("shareBtn").addEventListener("click",function(){
+  var n=document.getElementById("rn").value.trim();
+  var link="https://wa.me/966531689711"+(n?"?text="+encodeURIComponent("أنا من طرف "+n+"، أبي أستفسر عن خدمة"):"");
+  var txt="تحتاج شهادة صحية أو سكليف أو عقد إيجار أو أي خدمة؟ تواصل مع مكتب أبو ناصر في جدة، شغل مضمون وأسعار حسب العروض:\n"+link;
+  if(navigator.share){navigator.share({text:txt}).catch(function(){})}
+  else{window.open("https://wa.me/?text="+encodeURIComponent(txt),"_blank")}
+});
+</script>
+<script>
+(function(){
+var D={
+"إجازة تشيك باركود":"إجازة مرضية يطلع معها رمز تحقق (باركود)، تقدر جهتك تتأكد منها بسهولة.",
+"سكليف":"الإجازة المرضية المعتمدة، تقدمها لجهة عملك أو دراستك لإثبات غيابك بسبب المرض.",
+"إجازة مرضية عسكرية":"إجازة مرضية للعسكريين، تنجز بالنموذج المطلوب من جهتهم.",
+"شهادة صحية":"مطلوبة للعمل في المنشآت الغذائية والمهن اللي تتعامل مع الناس، وتطلع عبر منصة بلدي.",
+"إزالة ملاحظة حماية الجور":"إذا كان عليك ملاحظة مسجلة، نتابع رفعها لك عبر خدمات البلديات.",
+"فحص مناديب هنقرستيشن":"الفحص المطلوب لمناديب التوصيل عشان يشتغلون بشكل نظامي، وننجزه لك عبر خدمات البلديات.",
+"عقد إيجار":"توثيق عقد الإيجار عبر منصة إيجار، ويُطلب لحساب المواطن.",
+"شهادة سلامة":"شهادة السلامة من الدفاع المدني للمنشآت.",
+"تطعيمات الأطفال":"تسجيل ومتابعة مواعيد تطعيمات طفلك بدون عناء.",
+"شعار تنويم":"شعار رسمي يثبت تنويم المريض في المستشفى.",
+"شعار مرافق مريض":"شعار يثبت مرافقتك لمريض في المستشفى، وتقدمه لجهة عملك.",
+"تقرير طبي":"تقرير يوضح حالتك الصحية ومدة العلاج.",
+"كشوف طبية":"الكشوفات والفحوصات الطبية اللي تطلبها الجهات المختلفة.",
+"مشهد مراجعة":"إثبات إنك راجعت المستشفى أو المركز الصحي.",
+"فحص دوري":"الفحص الدوري للمركبة، المطلوب نظامياً.",
+"بطاقة سائق":"إصدار وتجديد بطاقة السائق.",
+"كرت تشغيل":"إصدار وتجديد كرت تشغيل المركبة.",
+"رخصة قيادة":"إصدار وتجديد رخصة القيادة.",
+"عقد أجير":"توثيق عقد العمل عبر منصة أجير."
+};
+document.querySelectorAll(".svc").forEach(function(el){
+  var ic=el.querySelector(".ic").textContent,t=el.querySelector("b").textContent,s=el.querySelector("small").textContent;
+  var d=document.createElement("div");d.className="svc sv2";
+  d.innerHTML='<button type="button" class="hd" aria-expanded="false"><span class="ic"></span><span class="tx"><b></b><small></small><small class="cta">اضغط لشرح الخدمة</small></span></button><div class="dt"><p></p><a class="wa" target="_blank" rel="noopener">تواصل هنا لمعرفة السعر</a></div>';
+  d.querySelector(".ic").textContent=ic;d.querySelector("b").textContent=t;d.querySelector("small").textContent=s;
+  d.querySelector(".dt p").textContent=(D[t]||"خدمة ننجزها لك بكل سهولة.")+" السعر يختلف حسب العروض، تواصل معنا ونعطيك السعر.";
+  d.querySelector("a.wa").href="https://wa.me/966531689711?text="+encodeURIComponent("السلام عليكم، أبي أعرف سعر خدمة: "+t+" حسب العروض.");
+  var hd=d.querySelector(".hd"),cta=d.querySelector(".cta");
+  hd.addEventListener("click",function(){var o=d.classList.toggle("open");hd.setAttribute("aria-expanded",o);cta.textContent=o?"اضغط لإخفاء الشرح":"اضغط لشرح الخدمة"});
+  el.replaceWith(d);
+});
+})();
+</script>
+</body>
+</html>
